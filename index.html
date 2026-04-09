@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nafiz Imtiaz — UI/UX Designer</title>
+  <meta name="description" content="UI/UX Designer based in Dhaka, Bangladesh. Crafting intuitive digital experiences with Figma." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✦</text></svg>" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header id="header">
+    <div class="nav-wrap">
+      <a href="#home" class="logo">Nafiz Imtiaz</a>
+
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-right">
+        <span class="avail-badge"><span class="avail-dot"></span>Available</span>
+        <a href="Resume__of_Nafiz_Imtiaz.pdf" class="btn-resume" download>
+          Resume <i class="fas fa-arrow-up-right-from-square"></i>
+        </a>
+        <button id="theme-toggle" aria-label="Toggle colour theme">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button id="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav -->
+    <div id="mobile-menu" aria-hidden="true">
+      <a href="#work"       class="m-link">Work</a>
+      <a href="#about"      class="m-link">About</a>
+      <a href="#experience" class="m-link">Experience</a>
+      <a href="#contact"    class="m-link">Contact</a>
+      <div class="m-bottom">
+        <a href="Resume__of_Nafiz_Imtiaz.pdf" class="btn-resume" download>Resume</a>
+        <button id="mobile-theme-toggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section id="home" class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-glow hero-glow-2"></div>
+      <div class="container">
+        <div class="hero-tag">
+          <span class="avail-dot"></span> UI/UX Designer · Dhaka, Bangladesh
+        </div>
+        <h1 class="hero-name">
+          <em>Nafiz</em><br />Imtiaz
+        </h1>
+        <p class="hero-sub">
+          I design digital products that feel
+          <span class="acc">intuitive</span>,
+          look <span class="acc">beautiful</span>, and work
+          <span class="acc">purposefully</span>.
+        </p>
+        <div class="hero-cta">
+          <a href="#work" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-ghost">Get in Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/Nafiz-75" target="_blank" rel="noreferrer" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/nafiz-imtiaz-70715b33b" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="mailto:nafiz5627@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="scroll-cue">scroll ↓</div>
+    </section>
+
+    <!-- ===== WORK ===== -->
+    <section id="work">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <span class="sec-num">01</span>
+          <h2>Selected Work</h2>
+          <p>UI/UX projects designed with intention and care</p>
+        </div>
+        <div id="project-gallery" class="proj-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <span class="sec-num">02</span>
+          <h2>About Me</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-img-col reveal-up">
+            <div class="about-img-frame">
+              <img src="assets/Nafiz.png" alt="Nafiz Imtiaz" />
+              <div class="img-accent"></div>
+            </div>
+            <div class="about-stat-row">
+              <div class="stat-box">
+                <span class="stat-num">1+</span>
+                <span class="stat-label">Years in Design</span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-num">4+</span>
+                <span class="stat-label">Projects Shipped</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-text-col reveal-up">
+            <p class="about-lead">
+              I'm a UI/UX Designer with a Computer Science degree — I bridge the gap between design thinking and technical reality.
+            </p>
+            <p class="about-body">
+              My process starts with people. I combine user research, information architecture, and high-fidelity Figma design to build products that feel effortless. My CSE background means I design with developers in mind — precise, component-driven, and implementable.
+            </p>
+            <p class="about-body">
+              I've also worked in data analytics and IT support, which gives me a sharp edge when designing for complex, data-rich products.
+            </p>
+
+            <div class="tools-block">
+              <h3 class="tools-label">Design Toolkit</h3>
+              <div class="tool-chips primary-chips">
+                <span>Figma</span>
+                <span>FigJam</span>
+                <span>Auto Layout</span>
+                <span>Design Systems</span>
+                <span>Prototyping</span>
+                <span>Wireframing</span>
+                <span>User Research</span>
+                <span>Component Libraries</span>
+              </div>
+              <h3 class="tools-label secondary-label">Secondary Skills</h3>
+              <div class="tool-chips secondary-chips">
+                <span>IT Support</span>
+                <span>Python</span>
+                <span>SQL</span>
+                <span>Power BI</span>
+                <span>Data Analysis</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EXPERIENCE ===== -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <span class="sec-num">03</span>
+          <h2>Experience</h2>
+        </div>
+        <div class="exp-grid">
+          <div class="timeline reveal-up">
+            <div class="tl-item">
+              <div class="tl-pip"></div>
+              <div class="tl-body">
+                <div class="tl-row">
+                  <span class="tl-role">General Administration Intern</span>
+                  <span class="tl-date">1st March,2024 — 31st April,2024</span>
+                </div>
+                <div class="tl-org">Skill Jobs</div>
+                <ul>
+                  <li>Leading partnership projects with IT companies.</li>
+                  <li>Coordinating logistics and administrative operations.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-pip"></div>
+              <div class="tl-body">
+                <div class="tl-row">
+                  <span class="tl-role">IT Support &amp; Systems Assistance</span>
+                  <span class="tl-date">2023 — 2024</span>
+                </div>
+                <div class="tl-org">Daffodil International University</div>
+                <ul>
+                  <li>Provided technical support for software, connectivity, and performance issues.</li>
+                  <li>Installed and configured Windows and Linux systems.</li>
+                  <li>Assisted with LAN, DNS, and DHCP networking tasks.</li>
+                </ul>
+              </div>
+            </div>
+            <div class="tl-item">
+              <div class="tl-pip"></div>
+              <div class="tl-body">
+                <div class="tl-row">
+                  <span class="tl-role">Volunteer</span>
+                  <span class="tl-date">Sep 2025</span>
+                </div>
+                <div class="tl-org">I2I Fresh Graduate Program — Skill Jobs</div>
+                <ul>
+                  <li>Coordinated logistics for 200+ participants across event day.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="side-cards reveal-up">
+            <div class="info-card">
+              <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+              <p><strong>Daffodil International University</strong></p>
+              <p>BSc in Computer Science &amp; Engineering</p>
+              <p class="card-muted">Focus: Design Thinking, Data Analysis, ML</p>
+            </div>
+            <div class="info-card">
+              <h3><i class="fas fa-certificate"></i> Certifications</h3>
+              <ul>
+                <li>Mobile App Development — EDGE Project of Bangladesh Compter Council, ICT Division</li>
+                <li>AI+ Prompt Engineer Level 1 — AI Certs</li>
+                <li>Agent X — NetCom Learning</li>
+                <li>Microsoft 365 Copilot — Microsoft</li>
+                <li>Data Analytics Job Ready — Ostad</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact">
+      <div class="container">
+        <div class="section-head reveal-up">
+          <span class="sec-num">04</span>
+          <h2>Let's Work Together</h2>
+          <p>Have a project in mind? I'd love to hear about it.</p>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info reveal-up">
+            <h3>Get in touch</h3>
+            <p class="contact-note">Open to freelance design projects, full-time roles, and creative collaborations.</p>
+            <div class="contact-links">
+              <a href="mailto:nafiz5627@gmail.com">
+                <i class="fas fa-envelope"></i> nafiz5627@gmail.com
+              </a>
+              <a href="tel:+8801781719178">
+                <i class="fas fa-phone"></i> +880 178 171 9178
+              </a>
+              <a href="https://github.com/Nafiz-75" target="_blank" rel="noreferrer">
+                <i class="fab fa-github"></i> Nafiz-75
+              </a>
+              <a href="https://www.linkedin.com/in/nafiz-imtiaz-70715b33b" target="_blank" rel="noreferrer">
+                <i class="fab fa-linkedin"></i> LinkedIn Profile
+              </a>
+            </div>
+          </div>
+
+          <form id="contact-form" class="contact-form reveal-up" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary btn-full">
+              Send Message <i class="fas fa-arrow-right"></i>
+            </button>
+            <div id="form-message" class="form-msg" aria-live="polite"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <div class="footer-inner">
+        <p>© 2026 Nafiz Imtiaz</p>
+        <p class="foot-sub">Designed &amp; built by Nafiz Imtiaz</p>
+        <div class="foot-socials">
+          <a href="https://github.com/Nafiz-75" target="_blank" rel="noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/nafiz-imtiaz-70715b33b" target="_blank" rel="noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:nafiz5627@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== BACK TO TOP ===== -->
+  <button id="back-to-top" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- ===== PROJECT MODAL ===== -->
+  <div id="project-modal" class="modal" role="dialog" aria-modal="true" aria-hidden="true" tabindex="-1">
+    <div class="modal-backdrop"></div>
+    <div class="modal-box">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      <div class="modal-inner">
+        <div class="modal-img-col">
+          <img id="modal-image" src="" alt="" />
+        </div>
+        <div class="modal-info">
+          <span id="modal-category" class="modal-cat"></span>
+          <h2 id="modal-title"></h2>
+          <div id="modal-description"></div>
+          <div class="modal-actions">
+            <a id="modal-figma-design"  href="#" target="_blank" rel="noreferrer" class="btn-primary">
+              <i class="fab fa-figma"></i> Open in Figma
+            </a>
+            <a id="modal-figma-proto"   href="#" target="_blank" rel="noreferrer" class="btn-ghost">
+              View Prototype →
+            </a>
+            <a id="modal-github"        href="#" target="_blank" rel="noreferrer" class="btn-ghost">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+            <a id="modal-link"          href="#" target="_blank" rel="noreferrer" class="btn-ghost">
+              Visit Project →
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

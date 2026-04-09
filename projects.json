@@ -1,0 +1,57 @@
+[
+  {
+    "title": "RITHOS",
+    "category": "UI/UX Design",
+    "short": "End-to-end product design covering UX research, high-fidelity UI, and an interactive prototype built entirely in Figma.",
+    "description": "RITHOS is a complete product design project — from early UX flows and information architecture through to a polished, high-fidelity design system and interactive prototype. Every screen was crafted with a focus on intuitive navigation, visual hierarchy, and a cohesive component library.",
+    "mediaSrc": "https://placehold.co/1200x800/0F1117/C8FF60?text=RITHOS",
+    "tags": ["Figma", "UI Design", "UX Research", "Prototyping", "Design System"],
+    "tools": ["Figma", "FigJam"],
+    "figmaDesign": "https://www.figma.com/design/bITsq4ke22CeKo6vpQV2rJ/RITHOS?node-id=0-1&t=N2Ig1bhk44gHaaPc-1",
+    "figmaPrototype": "https://www.figma.com/proto/bITsq4ke22CeKo6vpQV2rJ/RITHOS?node-id=1-3150&p=f&viewport=-45%2C298%2C0.02&t=iCz2gBVHJl8gSLDS-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A3150&show-proto-sidebar=1&page-id=0%3A1",
+    "featured": true
+  },
+  {
+    "title": "AURUM STAYS",
+    "category": "UI/UX Design",
+    "short": "Luxury stay booking platform with a focus on premium user experience and seamless navigation.",
+    "description": "AURUM STAYS is a premium accommodation booking platform designed with a modern UI approach. The project focuses on clean layouts, intuitive booking flow, and an elegant visual hierarchy to enhance user trust and engagement.",
+    "mediaSrc": "https://placehold.co/1200x800/0F1117/F59E0B?text=AURUM+STAYS",
+    "tags": ["Figma", "UI Design", "UX Design", "Prototyping"],
+    "tools": ["Figma"],
+    "figmaDesign": "https://www.figma.com/design/jWjGBdXpdPanlW2mmAd2Ei/AURUM-STAYS?node-id=0-1&t=CSfHYBFJge17P80J-1",
+    "figmaPrototype": "https://www.figma.com/proto/jWjGBdXpdPanlW2mmAd2Ei/AURUM-STAYS?node-id=1-697&p=f&viewport=-2511%2C-2072%2C0.21&t=AB2sKpdfDK5yg9N0-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A682&page-id=0%3A1"
+  },
+  {
+    "title": "EcoStsy",
+    "category": "UI/UX Design",
+    "short": "Eco-friendly product marketplace promoting sustainable shopping habits.",
+    "description": "EcoStsy is a sustainability-focused e-commerce platform designed to promote eco-friendly products. The design emphasizes clarity, accessibility, and a green-themed visual identity that aligns with environmental values.",
+    "mediaSrc": "https://placehold.co/1200x800/0F1117/10B981?text=EcoStsy",
+    "tags": ["Figma", "UI Design", "UX Design", "Sustainability"],
+    "tools": ["Figma"],
+    "figmaDesign": "https://www.figma.com/design/f79X8TvGXpX0zqYyRMg7tB/EcoStsy?node-id=0-1&t=eUgXbWEo3TQsaByT-1",
+    "figmaPrototype": "https://www.figma.com/proto/f79X8TvGXpX0zqYyRMg7tB/EcoStsy?node-id=239-1431&p=f&viewport=-167%2C474%2C0.53&t=xjEtLYkRDnWyMOpo-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=3%3A4&page-id=0%3A1"
+  },
+  {
+    "title": "PickNear",
+    "category": "UI/UX Design",
+    "short": "A location-based app for discovering nearby products quickly and efficiently.",
+    "description": "PickNear is a smart product discovery app that helps users find nearby items in real-time. The design focuses on usability, fast navigation, and location-based interaction to improve convenience and decision-making.",
+    "mediaSrc": "https://placehold.co/1200x800/0F1117/3B82F6?text=PickNear",
+    "tags": ["Figma", "UI Design", "UX Design", "Location-Based App"],
+    "tools": ["Figma"],
+    "figmaDesign": "https://www.figma.com/design/wwH4TcYit22rPflBHlRoO9/PickNear?node-id=0-1&t=4EbixAGRAF3zNRBc-1",
+    "figmaPrototype": "https://www.figma.com/proto/wwH4TcYit22rPflBHlRoO9/PickNear?page-id=0%3A1&node-id=4-141&p=f&viewport=339%2C409%2C0.08&t=zOSF18IFby1BsG0X-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=4%3A141&show-proto-sidebar=1"
+  },
+  {
+    "title": "Image Compression via Graph Signal Processing",
+    "category": "Research · Thesis",
+    "short": "Compared Grid-Based, Patch-Based, and SLIC graph approaches for efficient image representation.",
+    "description": "Thesis research comparing three graph-based image compression approaches — Grid-Based, Patch-Based, and Superpixel-Based (SLIC) — using shared evaluation metrics. Built with Python, NumPy, and graph signal processing libraries.",
+    "mediaSrc": "https://placehold.co/1200x800/0F1117/6366f1?text=Thesis+Research",
+    "tags": ["Python", "Graph Signal Processing", "Research", "NumPy"],
+    "tools": ["Python", "NumPy", "SciPy"],
+    "github": "https://github.com/Nafiz-75"
+  }
+]
