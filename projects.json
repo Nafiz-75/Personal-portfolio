@@ -1,0 +1,61 @@
+[
+  {
+    "id": "rithos",
+    "title": "RITHOS",
+    "category": "ui",
+    "sub": "Lifestyle Brand Mobile App",
+    "short": "End-to-end product design covering UX research, UI, and interactive prototype.",
+    "description": "Complete product design from UX flows to high-fidelity UI and prototype.",
+    "mediaSrc": "assets/rithos.jpg",
+    "tags": ["Figma", "Mobile UI", "Design System"],
+    "figmaDesign": "https://www.figma.com/design/bITsq4ke22CeKo6vpQV2rJ/RITHOS",
+    "figmaPrototype": "https://www.figma.com/proto/bITsq4ke22CeKo6vpQV2rJ/RITHOS"
+  },
+  {
+    "id": "aurum",
+    "title": "Aurum Stays",
+    "category": "ui",
+    "sub": "Luxury Booking App",
+    "short": "Premium booking experience with modern UI.",
+    "description": "Luxury accommodation booking app with clean layout and smooth UX.",
+    "mediaSrc": "assets/aurum.jpg",
+    "tags": ["Figma", "Luxury UI"],
+    "figmaDesign": "https://www.figma.com/design/jWjGBdXpdPanlW2mmAd2Ei/AURUM-STAYS",
+    "figmaPrototype": "https://www.figma.com/proto/jWjGBdXpdPanlW2mmAd2Ei/AURUM-STAYS"
+  },
+  {
+    "id": "ecostay",
+    "title": "EcoStay",
+    "category": "ui",
+    "sub": "Sustainable App",
+    "short": "Eco-friendly product platform.",
+    "description": "Sustainability-focused platform with clean and accessible UI.",
+    "mediaSrc": "assets/ecostay.png",
+    "tags": ["Figma", "Accessible Design"],
+    "figmaDesign": "https://www.figma.com/design/f79X8TvGXpX0zqYyRMg7tB/EcoStsy",
+    "figmaPrototype": "https://www.figma.com/proto/f79X8TvGXpX0zqYyRMg7tB/EcoStsy"
+  },
+  {
+    "id": "courier",
+    "title": "SwiftCourier",
+    "category": "web",
+    "sub": "Delivery Landing Page",
+    "short": "High-conversion landing page.",
+    "description": "Courier service landing page with bold UI and strong CTA.",
+    "mediaSrc": "assets/courier.jpg",
+    "tags": ["Figma", "Web UI"],
+    "figmaDesign": "https://www.figma.com/design/gQGq918Dj4P247pSUlU3LZ/Courier",
+    "figmaPrototype": "https://www.figma.com/proto/gQGq918Dj4P247pSUlU3LZ/Courier"
+  },
+  {
+    "id": "portfolio",
+    "title": "Personal Portfolio",
+    "category": "web",
+    "sub": "Portfolio Website",
+    "short": "Responsive portfolio using HTML, CSS, JS.",
+    "description": "Fully responsive portfolio with animations and dark mode.",
+    "mediaSrc": "assets/portfolio.png",
+    "tags": ["HTML", "CSS", "JavaScript"],
+    "github": "https://github.com/Nafiz-75"
+  }
+]
